@@ -1,0 +1,16 @@
+{
+  "name": "mio-doctor-so-designs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "serve": "browser-sync start --server --files 'src/*.css' --files './*.html'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.4",
+    "tailwindcss": "^4.1.4"
+  }
+}
