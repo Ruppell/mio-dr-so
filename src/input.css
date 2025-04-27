@@ -2,6 +2,7 @@
 
 body {
     @apply text-slate-600;
+    background: url('/src/img/dot-grid.webp');
 }
 
 .heading {
