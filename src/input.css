@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
 body {
-    @apply text-slate-700;
+    @apply text-slate-600;
+}
+
+.heading {
+    @apply text-teal-900 font-medium;
 }
 
 /**********/
