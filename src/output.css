@@ -601,6 +601,9 @@
   .border-orange-200 {
     border-color: var(--color-orange-200);
   }
+  .border-slate-100 {
+    border-color: var(--color-slate-100);
+  }
   .border-y-slate-100 {
     border-block-color: var(--color-slate-100);
   }
@@ -732,6 +735,9 @@
   }
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
+  }
+  .pt-0 {
+    padding-top: calc(var(--spacing) * 0);
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
@@ -1251,6 +1257,11 @@
       padding: calc(var(--spacing) * 20);
     }
   }
+  .lg\:py-15 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 15);
+    }
+  }
   .lg\:py-20 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 20);
@@ -1264,6 +1275,11 @@
   .lg\:pr-24 {
     @media (width >= 64rem) {
       padding-right: calc(var(--spacing) * 24);
+    }
+  }
+  .lg\:pb-15 {
+    @media (width >= 64rem) {
+      padding-bottom: calc(var(--spacing) * 15);
     }
   }
   .xl\:min-h-\[70vh\] {
@@ -1289,6 +1305,8 @@
 #design-a .heading {
   --tw-font-weight: var(--font-weight-medium);
   font-weight: var(--font-weight-medium);
+  --tw-tracking: var(--tracking-wide);
+  letter-spacing: var(--tracking-wide);
   color: var(--color-teal-900);
 }
 #design-b {

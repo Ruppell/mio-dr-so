@@ -10,7 +10,7 @@
 }
 
 #design-a .heading {
-    @apply text-teal-900 font-medium;
+    @apply text-teal-900 font-medium tracking-wide;
 }
 
 /************/
