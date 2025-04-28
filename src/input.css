@@ -22,7 +22,7 @@
 }
 
 #design-b .heading {
-    @apply text-slate-800 font-medium;
+    @apply text-slate-800 font-medium font-serif tracking-wide;
 }
 
 /**********/
