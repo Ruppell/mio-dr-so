@@ -18,11 +18,11 @@
 /************/
 
 #design-b {
-    @apply text-slate-600;
+    @apply text-slate-600 font-light;
 }
 
 #design-b .heading {
-    @apply text-slate-800 font-medium font-serif tracking-wide;
+    @apply text-slate-800 font-normal font-serif tracking-wide;
 }
 
 /**********/
