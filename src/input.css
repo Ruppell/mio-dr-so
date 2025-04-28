@@ -1,12 +1,28 @@
 @import "tailwindcss";
 
-body {
+/************/
+/* Design A */
+/************/
+
+#design-a {
     @apply text-slate-600;
     background: url('/src/img/dot-grid.webp');
 }
 
-.heading {
+#design-a .heading {
     @apply text-teal-900 font-medium;
+}
+
+/************/
+/* Design B */
+/************/
+
+#design-b {
+    @apply text-slate-600;
+}
+
+#design-b .heading {
+    @apply text-slate-800 font-medium;
 }
 
 /**********/
@@ -16,8 +32,8 @@ body {
 .bg-doctor-character {
     background-image: url('/src/img/doctor-character.png');
     background-repeat: no-repeat;
-    background-size: 150px;
-    background-position: 30px 7px;
+    /* background-size: 150px; */
+    /* background-position: 30px 7px; */
 }
 
 /**************/
