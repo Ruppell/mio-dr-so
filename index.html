@@ -3,14 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/src/output.css" rel="stylesheet">
+        <link href="./src/output.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-           <a href="design-a.html">Design A</a>
-           <a href="design-b.html">Design B</a>
-        </div>
+        <section class="py-20">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row gap-16">
+                    <a class="flex items-center justify-center w-1/2 min-h-[80vh] rounded border border-slate-200 text-center text-4xl uppercase tracking-widest p-10 transition hover:shadow-xl relative" style="background-image: url('src/img/design-a-1.png')" href="design-a.html" target="_blank">
+                        <div class="absolute top-0 left-0 w-full h-full bg-black/40 hover:bg-black/30 z-10 transition"></div>
+                        <span class="z-20 text-white text-shadow-xl">Design A</span>
+                    </a>
+                    <a class="flex items-center justify-center w-1/2 min-h-[80vh] rounded border border-slate-200 text-center text-4xl uppercase tracking-widest p-10 transition hover:shadow-xl relative" style="background-image: url('src/img/design-b-1.png')" href="design-b.html" target="_blank">
+                        <div class="absolute top-0 left-0 w-full h-full bg-black/40 hover:bg-black/30 z-10 transition"></div>
+                        <span class="z-20 text-white text-shadow-xl">Design B</span>
+                    </a>
+                </div
+            </div>
+        </section>
+
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
         <script>
          window.onload = function() {
