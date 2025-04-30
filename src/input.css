@@ -6,7 +6,7 @@
 
 #design-a {
     @apply text-slate-600;
-    background: url('/src/img/dot-grid.webp');
+    background: url('./img/dot-grid.webp');
 }
 
 #design-a .heading {
@@ -30,7 +30,7 @@
 /**********/
 
 .bg-doctor-character {
-    background-image: url('/src/img/doctor-character.png');
+    background-image: url('./img/doctor-character.png');
     background-repeat: no-repeat;
     /* background-size: 150px; */
     /* background-position: 30px 7px; */
